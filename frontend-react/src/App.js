@@ -15,7 +15,7 @@ function App() {
   const [result, setResult] = useState(null);
 
   const predict = async () => {
-    const response = await fetch("http://ai-trading-assistant-b6ky.onrender.com/predict", {
+    const response = await fetch("https://ai-trading-assistant-b6ky.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
